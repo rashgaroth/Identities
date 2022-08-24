@@ -1,0 +1,19 @@
+{
+  "name": "hardhat-project",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^1.0.2",
+    "hardhat": "^2.10.1"
+  },
+  "scripts": {
+    "test": "npx hardhat test",
+    "compile": "npx hardhat compile",
+    "deploy:mumbai": "hardhat run scripts/deploy.ts --network mumbai",
+    "verify:mumbai": "hardhat run scripts/verify.ts --network mumbai",
+    "refresh-artifacts": "rm -rf artifacts && rm -rf cache && npm run compile"
+  },
+  "dependencies": {
+    "@erc725/smart-contracts": "^3.1.2",
+    "@openzeppelin/contracts": "^4.7.3",
+    "solc": "^0.8.16"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "Calculate165Selectors",
+  "sourceName": "contracts/libraries/Calculate165Selectors.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "calculateSelectorERC725X",
+      "outputs": [
+        {
+          "internalType": "bytes4",
+          "name": "",
+          "type": "bytes4"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x6080604052348015600f57600080fd5b50607d80601d6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c80632d9f57cf14602d575b600080fd5b60408051632260147f60e11b815290519081900360200190f3fea264697066735822122038b310308a9bbcabc64dbdd62aa8a7452ec70e1c987536ed7dbe4f9908b7ffe264736f6c63430008090033",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c80632d9f57cf14602d575b600080fd5b60408051632260147f60e11b815290519081900360200190f3fea264697066735822122038b310308a9bbcabc64dbdd62aa8a7452ec70e1c987536ed7dbe4f9908b7ffe264736f6c63430008090033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

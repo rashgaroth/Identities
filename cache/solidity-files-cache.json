@@ -1,0 +1,1044 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/rashgaroth/Documents/Upbond/contracts/identities/contracts/Claim.sol": {
+      "lastModificationDate": 1660631011995,
+      "contentHash": "5ca35ed59ab3d6a1dfa055ba3c47bf32",
+      "sourceName": "contracts/Claim.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/access/Ownable.sol",
+        "./libraries/Common.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "Claim"
+      ]
+    },
+    "/Users/rashgaroth/Documents/Upbond/contracts/identities/node_modules/@openzeppelin/contracts/access/Ownable.sol": {
+      "lastModificationDate": 1660547048416,
+      "contentHash": "e436cea06129be2c73cda4b1acc848b5",
+      "sourceName": "@openzeppelin/contracts/access/Ownable.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "/Users/rashgaroth/Documents/Upbond/contracts/identities/contracts/libraries/Common.sol": {
+      "lastModificationDate": 1660755320505,
+      "contentHash": "4bbe271c922761f420cbfb7d7a48e651",
+      "sourceName": "contracts/libraries/Common.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "SharedStructs"
+      ]
+    },
+    "/Users/rashgaroth/Documents/Upbond/contracts/identities/node_modules/@openzeppelin/contracts/utils/Context.sol": {
+      "lastModificationDate": 1660547048385,
+      "contentHash": "5f2c5c4b6af2dd4551027144797bc8be",
+      "sourceName": "@openzeppelin/contracts/utils/Context.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    },
+    "/Users/rashgaroth/Documents/Upbond/contracts/identities/contracts/IdentitiesNFT.sol": {
+      "lastModificationDate": 1660637146823,
+      "contentHash": "b21c35c3bf8f4915df8ad479ff54cf01",
+      "sourceName": "contracts/IdentitiesNFT.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC721/ERC721.sol",
+        "@openzeppelin/contracts/access/Ownable.sol",
+        "@openzeppelin/contracts/utils/Counters.sol",
+        "./libraries/Common.sol",
+        "./Identity.sol",
+        "./Claim.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "IdentitiesNFT"
+      ]
+    },
+    "/Users/rashgaroth/Documents/Upbond/contracts/identities/node_modules/@openzeppelin/contracts/token/ERC721/ERC721.sol": {
+      "lastModificationDate": 1660547048402,
+      "contentHash": "79ff1a7eb801a525aa315fb7a679eede",
+      "sourceName": "@openzeppelin/contracts/token/ERC721/ERC721.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC721.sol",
+        "./IERC721Receiver.sol",
+        "./extensions/IERC721Metadata.sol",
+        "../../utils/Address.sol",
+        "../../utils/Context.sol",
+        "../../utils/Strings.sol",
+        "../../utils/introspection/ERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC721"
+      ]
+    },
+    "/Users/rashgaroth/Documents/Upbond/contracts/identities/node_modules/@openzeppelin/contracts/utils/Counters.sol": {
+      "lastModificationDate": 1660547048385,
+      "contentHash": "74654e3ae5d7f39555055dfe244dab7a",
+      "sourceName": "@openzeppelin/contracts/utils/Counters.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Counters"
+      ]
+    },
+    "/Users/rashgaroth/Documents/Upbond/contracts/identities/contracts/Identity.sol": {
+      "lastModificationDate": 1660839339214,
+      "contentHash": "32165996fb43870da2addfc25f80d000",
+      "sourceName": "contracts/Identity.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@erc725/smart-contracts/contracts/ERC725.sol",
+        "@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol",
+        "./libraries/Common.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "Identity"
+      ]
+    },
+    "/Users/rashgaroth/Documents/Upbond/contracts/identities/node_modules/@openzeppelin/contracts/token/ERC721/IERC721.sol": {
+      "lastModificationDate": 1660547048412,
+      "contentHash": "ec99d946db3685a3630554aa6055bd7f",
+      "sourceName": "@openzeppelin/contracts/token/ERC721/IERC721.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../utils/introspection/IERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC721"
+      ]
+    },
+    "/Users/rashgaroth/Documents/Upbond/contracts/identities/node_modules/@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol": {
+      "lastModificationDate": 1660547048413,
+      "contentHash": "c22d4395e33763de693fd440c6fd10e1",
+      "sourceName": "@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC721Receiver"
+      ]
+    },
+    "/Users/rashgaroth/Documents/Upbond/contracts/identities/node_modules/@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol": {
+      "lastModificationDate": 1660547048413,
+      "contentHash": "efbc0d15b80a74e34dbe8da0f3e879bb",
+      "sourceName": "@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../IERC721.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC721Metadata"
+      ]
+    },
+    "/Users/rashgaroth/Documents/Upbond/contracts/identities/node_modules/@openzeppelin/contracts/utils/Address.sol": {
+      "lastModificationDate": 1660547048384,
+      "contentHash": "c476b3895a94798b88a4bb97399e6dfe",
+      "sourceName": "@openzeppelin/contracts/utils/Address.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.1"
+      ],
+      "artifacts": [
+        "Address"
+      ]
+    },
+    "/Users/rashgaroth/Documents/Upbond/contracts/identities/node_modules/@openzeppelin/contracts/utils/Strings.sol": {
+      "lastModificationDate": 1660547048418,
+      "contentHash": "cf46906c4035f51639a22265066a9e78",
+      "sourceName": "@openzeppelin/contracts/utils/Strings.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Strings"
+      ]
+    },
+    "/Users/rashgaroth/Documents/Upbond/contracts/identities/node_modules/@openzeppelin/contracts/utils/introspection/ERC165.sol": {
+      "lastModificationDate": 1660547048392,
+      "contentHash": "0e7db055ce108f9da7bb6686a00287c0",
+      "sourceName": "@openzeppelin/contracts/utils/introspection/ERC165.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC165"
+      ]
+    },
+    "/Users/rashgaroth/Documents/Upbond/contracts/identities/node_modules/@openzeppelin/contracts/utils/introspection/IERC165.sol": {
+      "lastModificationDate": 1660547048411,
+      "contentHash": "03e6768535ac4da0e9756f1d8a4a018a",
+      "sourceName": "@openzeppelin/contracts/utils/introspection/IERC165.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC165"
+      ]
+    },
+    "/Users/rashgaroth/Documents/Upbond/contracts/identities/node_modules/@erc725/smart-contracts/contracts/ERC725.sol": {
+      "lastModificationDate": 1660547048285,
+      "contentHash": "854b2d05cb5d7d4587429f5ac81091cd",
+      "sourceName": "@erc725/smart-contracts/contracts/ERC725.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/utils/introspection/ERC165.sol",
+        "./custom/OwnableUnset.sol",
+        "./ERC725XCore.sol",
+        "./ERC725YCore.sol",
+        "./constants.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC725"
+      ]
+    },
+    "/Users/rashgaroth/Documents/Upbond/contracts/identities/node_modules/@erc725/smart-contracts/contracts/custom/OwnableUnset.sol": {
+      "lastModificationDate": 1660547048307,
+      "contentHash": "5fc9508265eedd9fc8c4157eae085e87",
+      "sourceName": "@erc725/smart-contracts/contracts/custom/OwnableUnset.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "OwnableUnset"
+      ]
+    },
+    "/Users/rashgaroth/Documents/Upbond/contracts/identities/node_modules/@erc725/smart-contracts/contracts/ERC725XCore.sol": {
+      "lastModificationDate": 1660547048288,
+      "contentHash": "00d6ec632280fd2f657b36037dad0eee",
+      "sourceName": "@erc725/smart-contracts/contracts/ERC725XCore.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/utils/introspection/IERC165.sol",
+        "./interfaces/IERC725X.sol",
+        "@openzeppelin/contracts/utils/Create2.sol",
+        "@openzeppelin/contracts/utils/Address.sol",
+        "solidity-bytes-utils/contracts/BytesLib.sol",
+        "@openzeppelin/contracts/utils/introspection/ERC165.sol",
+        "./custom/OwnableUnset.sol",
+        "./constants.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC725XCore"
+      ]
+    },
+    "/Users/rashgaroth/Documents/Upbond/contracts/identities/node_modules/@erc725/smart-contracts/contracts/ERC725YCore.sol": {
+      "lastModificationDate": 1660547048300,
+      "contentHash": "65c519b034707770a8a78e565f627ceb",
+      "sourceName": "@erc725/smart-contracts/contracts/ERC725YCore.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/utils/introspection/IERC165.sol",
+        "./interfaces/IERC725Y.sol",
+        "./utils/GasLib.sol",
+        "@openzeppelin/contracts/utils/introspection/ERC165.sol",
+        "./custom/OwnableUnset.sol",
+        "./constants.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC725YCore"
+      ]
+    },
+    "/Users/rashgaroth/Documents/Upbond/contracts/identities/node_modules/@erc725/smart-contracts/contracts/constants.sol": {
+      "lastModificationDate": 1660547048283,
+      "contentHash": "ad59b2cb2cb2939b29a88e8e5b4981c1",
+      "sourceName": "@erc725/smart-contracts/contracts/constants.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": []
+    },
+    "/Users/rashgaroth/Documents/Upbond/contracts/identities/node_modules/@erc725/smart-contracts/contracts/interfaces/IERC725X.sol": {
+      "lastModificationDate": 1660547048305,
+      "contentHash": "a0b07a07f5ca59ea8eaabe2bee6193b4",
+      "sourceName": "@erc725/smart-contracts/contracts/interfaces/IERC725X.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/utils/introspection/IERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC725X"
+      ]
+    },
+    "/Users/rashgaroth/Documents/Upbond/contracts/identities/node_modules/@openzeppelin/contracts/utils/Create2.sol": {
+      "lastModificationDate": 1660547048385,
+      "contentHash": "8932e2855e9aac6e79af79e499863b10",
+      "sourceName": "@openzeppelin/contracts/utils/Create2.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Create2"
+      ]
+    },
+    "/Users/rashgaroth/Documents/Upbond/contracts/identities/node_modules/solidity-bytes-utils/contracts/BytesLib.sol": {
+      "lastModificationDate": 1660547048161,
+      "contentHash": "9c6b01be648f655631038d79648a7c05",
+      "sourceName": "solidity-bytes-utils/contracts/BytesLib.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.8.0 <0.9.0"
+      ],
+      "artifacts": [
+        "BytesLib"
+      ]
+    },
+    "/Users/rashgaroth/Documents/Upbond/contracts/identities/node_modules/@erc725/smart-contracts/contracts/interfaces/IERC725Y.sol": {
+      "lastModificationDate": 1660547048306,
+      "contentHash": "29ce4703858278981a29678041b0ccb5",
+      "sourceName": "@erc725/smart-contracts/contracts/interfaces/IERC725Y.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/utils/introspection/IERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC725Y"
+      ]
+    },
+    "/Users/rashgaroth/Documents/Upbond/contracts/identities/node_modules/@erc725/smart-contracts/contracts/utils/GasLib.sol": {
+      "lastModificationDate": 1660547048304,
+      "contentHash": "f6b4a80a53e98110c2017bc6ef3b732a",
+      "sourceName": "@erc725/smart-contracts/contracts/utils/GasLib.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "GasLib"
+      ]
+    },
+    "/Users/rashgaroth/Documents/Upbond/contracts/identities/contracts/IdentityFactory.sol": {
+      "lastModificationDate": 1660748627593,
+      "contentHash": "d355bf2db00aafdcd4a5fa85b6916fbf",
+      "sourceName": "contracts/IdentityFactory.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Identity.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "IdentityFactory"
+      ]
+    },
+    "/Users/rashgaroth/Documents/Upbond/contracts/identities/contracts/libraries/Calculate165Selectors.sol": {
+      "lastModificationDate": 1660557865160,
+      "contentHash": "657ce92a33328c4a8f1c38d2505e56be",
+      "sourceName": "contracts/libraries/Calculate165Selectors.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@erc725/smart-contracts/contracts/interfaces/IERC725X.sol",
+        "@erc725/smart-contracts/contracts/interfaces/IERC725Y.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "Calculate165Selectors"
+      ]
+    },
+    "/Users/rashgaroth/Documents/Upbond/contracts/identities/contracts/libraries/UtilsLib.sol": {
+      "lastModificationDate": 1660557397077,
+      "contentHash": "55a29d25ebf98a17ce5fbb2cfbaa6c9e",
+      "sourceName": "contracts/libraries/UtilsLib.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "UtilsLib"
+      ]
+    }
+  }
+}

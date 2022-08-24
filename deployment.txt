@@ -1,0 +1,4 @@
+identity factory = 0x1a850fDE63D15BD50853Bae25919bAC1833c5B3B //yani
+claim verifier = 0xA1211Ce98e0474F7d63B42c356a24f3AeDCFEeB5 //dwiyan
+identity = 0x5CdA9f450BdBe0099F9e9307D18f7Cb3E46520EE //yani
+erc721 = 0x21E0dAff6fE629667088cAfF9d43687c8c515dF2 //dwiyan
